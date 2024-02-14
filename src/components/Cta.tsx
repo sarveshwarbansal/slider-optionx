@@ -7,7 +7,7 @@ import ctabg from '../assets/ctabg.svg'
 const Cta = () => {
   return (
     <section className="text-gray-600 body-font bg-gradient-to-r from-[#181544] via-[#181544] to-[#1e1554]">
-      <div className="container mx-auto flex md:px-4 md:py-10 md:flex-row flex-col items-center justify-between">
+      <div className="container mx-auto flex md:px-4 md:pt-10 md:flex-row flex-col items-center justify-between">
         {/* <Image
           className="object-cover object-center rounded"
           alt="hero"
@@ -41,7 +41,7 @@ const Cta = () => {
   <Image src={ctabg} alt="Background Image" className=" hidden md:block w-full h-[300px] xl:h-[350px]" />
 
  
-  <Image src={c} alt="Overlay Image" className="  md:absolute md:top-[-4%] md:left-[25%] xl:w-[75%]   w-full h-auto z-10" />
+  <Image src={c} alt="Overlay Image" className="  md:absolute md:top-[-2%] md:left-[25%] xl:w-[75%]   w-full h-auto z-10" />
 </div>
 </div>
 
